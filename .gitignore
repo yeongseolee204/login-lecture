@@ -1,1 +1,3 @@
-/node_modules
+**node_modules
+#/node_modules는 같은 파일에 있는 것만 ignore해줌
+# **을 붙이면 모든 파일을 다 ignore해줌
