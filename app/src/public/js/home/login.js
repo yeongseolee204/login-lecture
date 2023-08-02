@@ -1,7 +1,7 @@
 "use strict";
 
 const id = document.querySelector("#id"), //#은 태그에 아이디로 부여된 "아이디"를 가져와달라는 말
-    psword = document.querySelector("#psword"),
+    pw = document.querySelector("#pw"),
     loginBtn = document.querySelector("button");
 
 loginBtn.addEventListener("click", login);
@@ -9,7 +9,7 @@ loginBtn.addEventListener("click", login);
 function login() {
     const req = {
         id : id.value,
-        psword : psword.value, //object는 : 로
+        pw : pw.value, //object는 : 로
     };
 
     fetch("/login", {
